@@ -1,0 +1,48 @@
+/* Base Application Styles */
+@import 'https://fonts.googleapis.com/css?family=Raleway';
+
+body {
+  color: #fff;
+  background: #c0392b;
+  font-family: 'Raleway', sans-serif;
+}
+
+input.editableText {
+  background: inherit;
+  border: none;
+  /*border-color: transparent;*/
+  border-bottom: #fff solid thin;
+  border-right: #fff solid thin;
+  font-size: 20px;
+  width: 100%;
+  text-align: center;
+  transition-duration: 200ms;
+  padding-left: 5px;
+}
+
+input.editableText:focus {
+  outline: none;
+  transition-duration: 200ms;
+}
+
+input.editableText[disabled] {
+  border-right: none;
+  transition-duration: 200ms;
+}
+
+.align-left {
+  text-align: left;
+}
+
+.modal-content {
+  color: #000;
+}
+
+.modal-header {
+  color: #fff;
+  background-color: #2ecc71;
+}
+
+.modal-body input {
+  width: 100%;
+}
